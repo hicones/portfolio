@@ -1,0 +1,65 @@
+import css1 from '../img/portImages/img-1.png';
+import css2 from '../img/portImages/img-2.png';
+import react1 from '../img/portImages/react_styled.png';
+import img2 from '../img/portImages/img-4.png';
+import img3 from '../img/portImages/img-3.png';
+import img5 from '../img/portImages/img-5.png';
+
+const portfolios = [
+    {
+        id: 1,
+        category: 'CSS',
+        image: css1,
+        link1: 'https://www.github.com/hicones',
+        link2: 'https://bjbtelecom.netlify.app/',
+        title: 'Site de Provedor',
+        text: 'Criado com HTML e CSS.'
+    },
+    {
+        id: 2,
+        category: 'CSS',
+        image: css2,
+        link1: 'https://www.github.com/hicones',
+        link2: '#',
+        title: 'Flexblog',
+        text: 'Site completamente responsivo utilizando CSS Flexbox '
+    },
+    {
+        id: 3,
+        category: 'Javascript',
+        image: img3,
+        link1: 'https://www.github.com/hicones',
+        link2: 'https://pokedex2021v1.netlify.app/',
+        title: 'PokeDex 1º Geração',
+        text: 'Pokedex Feita em JavaScript consumindo a PokéAPI'
+    },
+    {
+        id: 4,
+        category: 'HTML',
+        image: img2,
+        link1: 'https://www.github.com/hicones',
+        link2: 'https://healthtrackauth.netlify.app/',
+        title: 'Tela de Login Health Track',
+        text: 'Tela de Autenticação feita em HTML/CSS'
+    },
+    {
+        id: 5,
+        category: 'React Native',
+        image: img5,
+        link1: 'https://www.github.com/hicones',
+        link2: '#',
+        title: 'Calculadora de IMC',
+        text: 'Feita em React Native'
+    },
+    {
+        id: 6,
+        category: 'React JS',
+        image: react1,
+        link1: 'https://www.github.com/hicones',
+        link2: '#',
+        title: 'Responsive Portfolio Website',
+        text: 'Criado usando diferentes técnologias, React, Material UI, Styled-Components e mais...'
+    },
+]
+
+export default portfolios;
