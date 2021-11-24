@@ -40,7 +40,7 @@ const ServicesSectionStyled = styled.section`
     .services{
         margin-top: 5rem;
         display: grid;
-        width: 1000px;
+        max-width: 90%;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1.5rem;
         @media screen and (max-width:1000px){

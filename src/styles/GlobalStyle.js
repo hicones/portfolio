@@ -40,6 +40,7 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
 }
+
 .dark-theme{
     --primary-color: #007bff;
     --primary-color-light: #057FFF;
@@ -176,8 +177,14 @@ h6{
 
 //Global Media Queries
 
-
-
+@media screen and (max-width:1200px){
+    .light-theme {
+        --sidebar-dark-color: rgba(255, 255, 255, 0.85);
+    }
+    .dark-theme {
+        --sidebar-dark-color: rgba(25, 29, 43, 0.85);
+    }
+  }
 `;
 
 export default GlobalStyle;

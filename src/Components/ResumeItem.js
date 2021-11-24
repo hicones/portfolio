@@ -17,7 +17,8 @@ function ResumeItem({year, title, subTitle, text}) {
 }
 
 const ResumeItemStyled = styled.div`
-    display: flexbox;   
+    display: flexbox;
+    max-width: 70% ;
     @media screen and (max-width: 421px){
         p, h5, h6{
             font-size: 75%;

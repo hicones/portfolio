@@ -49,11 +49,12 @@ function Skills() {
 
 const SkillsStyled = styled.section`
     .skills{
+        max-width: 80%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 2rem;
         grid-column-gap: 3rem;
-        @media screen and (max-width: 700px){
+        @media screen and (max-width: 900px){
             grid-template-columns: repeat(1, 1fr);
         }
     }
