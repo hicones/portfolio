@@ -21,25 +21,25 @@ function ContactPage() {
                     <div className="contact-title">
                         <h4>Entre em contato</h4>
                     </div>
-                    <form  className="form">
+                    <form  accept-charset="UTF-8" action="https://www.formbackend.com/f/1b2d546d7bccfdd3" method="POST" className="form">
                         <div className="form-field">
                             <label htmlFor="name"  >Seu nome*</label>
-                            <input type="text" id="name" />
+                            <input type="text" id="name" name="Nome" required/>
                         </div>
                         <div className="form-field">
                             <label htmlFor="email"  >Seu email*</label>
-                            <input type="email" id="email" />
+                            <input type="email" id="email" name="E-mail" required />
                         </div>
                         <div className="form-field">
                             <label htmlFor="subject"  >Assunto</label>
-                            <input type="text" id="subject" />
+                            <input type="text" id="subject" name="Assunto" required/>
                         </div>
                         <div className="form-field">
                             <label htmlFor="text-area">Sua Mensagem*</label>
-                            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                            <textarea name="Mensagem" id="textarea" type="textarea"required cols="30" rows="10"></textarea>
                         </div>
                         <div className="form-field f-button">
-                            <PrimaryButton title={'Enviar Email'} />
+                        <button type="submit" target="_blank"><PrimaryButton title={'Enviar Email'} /></button>
                         </div>
                     </form>
                 </div>
