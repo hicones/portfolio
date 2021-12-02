@@ -4,6 +4,8 @@ import react1 from '../img/portImages/react_styled.png';
 import img2 from '../img/portImages/img-4.png';
 import img3 from '../img/portImages/img-3.png';
 import img5 from '../img/portImages/img-5.png';
+import img7 from '../img/portImages/img-7.png';
+
 
 const portfolios = [
     {
@@ -36,11 +38,11 @@ const portfolios = [
     {
         id: 4,
         category: 'HTML',
-        image: img2,
+        image: img7,
         link1: 'https://www.github.com/hicones',
-        link2: 'https://healthtrackauth.netlify.app/',
-        title: 'Tela de Login Health Track',
-        text: 'Tela de Autenticação feita em HTML/CSS'
+        link2: 'https://spotifyclone21.netlify.app/',
+        title: 'Static Spotify Clone',
+        text: 'Criado utilizando HTML/CSS básico, a página é completamente estática e não é responsiva.'
     },
     {
         id: 5,
@@ -59,6 +61,15 @@ const portfolios = [
         link2: '#',
         title: 'Responsive Portfolio Website',
         text: 'Criado usando diferentes técnologias, React, Material UI, Styled-Components e mais...'
+    },
+    {
+        id: 7,
+        category: 'HTML',
+        image: img2,
+        link1: 'https://www.github.com/hicones',
+        link2: 'https://healthtrackauth.netlify.app/',
+        title: 'Tela de Login Health Track',
+        text: 'Tela de Autenticação feita em HTML/CSS'
     },
 ]
 
