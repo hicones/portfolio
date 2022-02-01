@@ -13,9 +13,9 @@ function ImageSection() {
             <div className="right-content">
                 <h4>Eu sou <span>Henrique Almeida</span></h4>
                 <p className="paragraph">
-                    Experiência como analista Transacional , 
+                    Experiência como Desenvolvedor Front End Pleno utilizando ReactJS, 
                     analista de suporte técnico, 
-                    estudante em Análise e desenvolvimento de sistemas pela FIAP e Desenvolvedor Front-end e fullstack. 
+                    estudante em Análise e desenvolvimento de sistemas pela FIAP. 
                 </p>
                 <div className="about-info">
                     <div className="info-title">

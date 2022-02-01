@@ -19,13 +19,19 @@ function Resume() {
                 </div>
                 <div className="resume-content">
                     <ResumeItem 
-                        year={'2021 - 2021'} 
+                        year={'12/2021 - Atualmente'} 
+                        title={'Desenvolvedor Front-End Pleno'}
+                        subTitle={'Turn2C'}
+                        text={'Desenvolvimento de aplicações onboarding e Crm. Desenvolvimento de projetos. Desenvolvimento UX UI utilizando Figma. Requisições API Rest com Axios. '} 
+                    />
+                    <ResumeItem 
+                        year={'02/2021 - 11/2021'} 
                         title={'Analista Transacional N2'}
                         subTitle={'Fastcash'}
                         text={'Análise de transações bancarias. prevenção de fraudes, atendimento aos publishers, atendimento ao cliente, desenvolvimento de bots e técnico de infraestrutura. '} 
                     />
                     <ResumeItem 
-                        year={'2021 - Freelance'} 
+                        year={'11/2021 - Freelance'} 
                         title={'Front-end Developer'}
                         subTitle={'BJB Telecom'}
                         text={'Desenvolvimento do site da empresa e interfaces internas. '} 

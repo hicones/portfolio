@@ -14,7 +14,7 @@ function HomePage() {
             <div className="typography">
                 <h1>Olá, eu sou <span>Henrique Almeida</span></h1>
                 <p>
-                    Desenvolvedor Front-End e
+                    Desenvolvedor Front-End Pleno, utilizando ReactJS
                     Estudante de Análise e Desenvolvimento de Sistemas pela FIAP 
                 </p>
                 <div className="icons">
