@@ -26,9 +26,9 @@ function Resume() {
                     />
                     <ResumeItem 
                         year={'02/2021 - 11/2021'} 
-                        title={'Analista Transacional N2'}
+                        title={'Estágio em Analise de sistemas'}
                         subTitle={'Fastcash'}
-                        text={'Análise de transações bancarias. prevenção de fraudes, atendimento aos publishers, atendimento ao cliente, desenvolvimento de bots e técnico de infraestrutura. '} 
+                        text={'Estágio em analise de sistemas, desenvolvimento e suporte técnico.'} 
                     />
                     <ResumeItem 
                         year={'11/2021 - Freelance'} 
