@@ -16,7 +16,7 @@ const portfolios = [
         link1: 'https://github.com/hicones/tesla-ui-clone',
         link2: '#',
         title: 'Tesla UI Clone',
-        text: 'UI Clone do Site da Tesla'
+        text: 'UI Clone do Site da Tesla feito em ReactJS e TypeScript'
     },
     {
         id: 2,
