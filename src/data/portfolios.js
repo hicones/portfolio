@@ -13,8 +13,8 @@ const portfolios = [
         id: 1,
         category: 'React JS',
         image: img8,
-        link1: 'https://www.github.com/hicones',
-        link2: 'https://healthtrackauth.netlify.app/',
+        link1: 'https://github.com/hicones/tesla-ui-clone',
+        link2: '#',
         title: 'Tesla UI Clone',
         text: 'UI Clone do Site da Tesla'
     },
