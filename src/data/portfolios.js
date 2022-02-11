@@ -5,11 +5,21 @@ import img2 from '../img/portImages/img-4.png';
 import img3 from '../img/portImages/img-3.png';
 import img5 from '../img/portImages/img-5.png';
 import img7 from '../img/portImages/img-7.png';
+import img8 from '../img/portImages/img-8.jpeg'
 
 
 const portfolios = [
     {
         id: 1,
+        category: 'React JS',
+        image: img8,
+        link1: 'https://www.github.com/hicones',
+        link2: 'https://healthtrackauth.netlify.app/',
+        title: 'Tesla UI Clone',
+        text: 'UI Clone do Site da Tesla'
+    },
+    {
+        id: 2,
         category: 'CSS',
         image: css1,
         link1: 'https://www.github.com/hicones',
@@ -18,7 +28,7 @@ const portfolios = [
         text: 'Criado com HTML e CSS.'
     },
     {
-        id: 2,
+        id: 3,
         category: 'CSS',
         image: css2,
         link1: 'https://www.github.com/hicones',
@@ -27,7 +37,7 @@ const portfolios = [
         text: 'Site completamente responsivo utilizando CSS Flexbox '
     },
     {
-        id: 3,
+        id: 4,
         category: 'Javascript',
         image: img3,
         link1: 'https://www.github.com/hicones',
@@ -36,7 +46,7 @@ const portfolios = [
         text: 'Pokedex Feita em JavaScript consumindo a PokéAPI'
     },
     {
-        id: 4,
+        id: 5,
         category: 'HTML',
         image: img7,
         link1: 'https://www.github.com/hicones',
@@ -45,7 +55,7 @@ const portfolios = [
         text: 'Criado utilizando HTML/CSS básico, a página é completamente estática e não é responsiva.'
     },
     {
-        id: 5,
+        id: 6,
         category: 'React Native',
         image: img5,
         link1: 'https://www.github.com/hicones',
@@ -54,7 +64,7 @@ const portfolios = [
         text: 'Feita em React Native'
     },
     {
-        id: 6,
+        id: 7,
         category: 'React JS',
         image: react1,
         link1: 'https://www.github.com/hicones',
@@ -63,7 +73,7 @@ const portfolios = [
         text: 'Criado usando diferentes técnologias, React, Material UI, Styled-Components e mais...'
     },
     {
-        id: 7,
+        id: 8,
         category: 'HTML',
         image: img2,
         link1: 'https://www.github.com/hicones',
