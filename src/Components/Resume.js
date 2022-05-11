@@ -29,18 +29,18 @@ function Resume() {
                         title={'Desenvolvedor Front-End Pleno'}
                         subTitle={'Turn2C'}
                         text={'Desenvolvimento de aplicações onboarding e Crm. Desenvolvimento de projetos. Desenvolvimento UX UI utilizando Figma. Requisições API Rest com Axios. '} 
+                    /> 
+                    <ResumeItem 
+                        year={'11/2021 - Freelance'} 
+                        title={'Front-end Developer'}
+                        subTitle={'BJB Telecom'}
+                        text={'Desenvolvimento do site da empresa e interfaces internas. '} 
                     />
                     <ResumeItem 
                         year={'02/2021 - 11/2021'} 
                         title={'Estágio em Analise de sistemas'}
                         subTitle={'Fastcash'}
                         text={'Estágio em analise de sistemas, desenvolvimento e suporte técnico.'} 
-                    />
-                    <ResumeItem 
-                        year={'11/2021 - Freelance'} 
-                        title={'Front-end Developer'}
-                        subTitle={'BJB Telecom'}
-                        text={'Desenvolvimento do site da empresa e interfaces internas. '} 
                     />
                 </div>
                 <div className="small-title u-small-title-margin">
