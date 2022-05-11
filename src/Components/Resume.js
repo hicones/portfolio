@@ -59,11 +59,6 @@ function Resume() {
                         subTitle={'Origamid'}
                         text={'Aprendi a criar um site responsivo do zero. Do design ao código, utilizando HTML5, CSS3, JavaScript e com um design responsivo. '} 
                     />
-                    <ResumeItem 
-                        year={'2017 - 2019'} 
-                        title={'Ensino Médio'}
-                        subTitle={'Escola Professor João Dias da Silveira'}
-                    />
                 </div>
             </InnerLayout>
         </ResumeStyled>    
