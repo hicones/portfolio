@@ -1,5 +1,4 @@
-import {createGlobalStyle} from 'styled-components';
-
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 /* :root{
@@ -131,7 +130,6 @@ h6{
     margin-bottom: 4rem;
 }
 
-
 //Floting Toggler
 .light-dark-mode{
     position: fixed;
@@ -153,10 +151,56 @@ h6{
   }
 
   //Nav Toggler
-  .ham-burger-menu{
+  // Menu Button
+
+.wrapper-menu {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 330ms ease-out;
+}
+
+.wrapper-menu.open {
+  transform: rotate(-45deg);  
+}
+
+.line-menu {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  width: 100%;
+  height: 6px;
+}
+
+.line-menu.half {
+  width: 50%;
+}
+
+.line-menu.start {
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: right;
+}
+
+.open .line-menu.start {
+  transform: rotate(-90deg) translateX(3px);
+}
+
+.line-menu.end {
+  align-self: flex-end;
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: left;
+}
+
+.open .line-menu.end {
+  transform: rotate(-90deg) translateX(-3px);
+}
+
+  .wrapper-menu{
       position: absolute;
       right: 5%;
-      top: 3%; 
+      top: 4%;
       display: none;
       z-index: 15;
       svg{
@@ -169,8 +213,8 @@ h6{
         z-index: 20;
     }
   @media screen and (max-width:1200px){
-    .ham-burger-menu{
-        display: block;
+    .wrapper-menu{
+        display: flex;
     }
   }
 
