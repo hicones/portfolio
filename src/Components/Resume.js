@@ -19,7 +19,13 @@ function Resume() {
                 </div>
                 <div className="resume-content">
                     <ResumeItem 
-                        year={'12/2021 - Atualmente'} 
+                        year={'02/2022 - Atualmente'} 
+                        title={'Front-End Developer PL'}
+                        subTitle={'Genezys Global Tech'}
+                        text={'Desenvolvimento de aplicações no segmento de crypto, utilizando TypeScript, NextJS, Redux, requisições API Rest com Axios. '} 
+                    />
+                    <ResumeItem 
+                        year={'12/2021 - 02/2022'} 
                         title={'Desenvolvedor Front-End Pleno'}
                         subTitle={'Turn2C'}
                         text={'Desenvolvimento de aplicações onboarding e Crm. Desenvolvimento de projetos. Desenvolvimento UX UI utilizando Figma. Requisições API Rest com Axios. '} 
@@ -35,12 +41,6 @@ function Resume() {
                         title={'Front-end Developer'}
                         subTitle={'BJB Telecom'}
                         text={'Desenvolvimento do site da empresa e interfaces internas. '} 
-                    />
-                    <ResumeItem 
-                        year={'07/2019 - 08/2020'} 
-                        title={'Analista de Suporte Técnico'}
-                        subTitle={'BJB Telecom'}
-                        text={'Suporte técnico ao cliente, acesso remoto, manutenção de servidores, instalação de infraestrutura, auxilio geral em todas as atividades administrativas da empresa, como planejamento, pagamentos,cobrança e marketing. '} 
                     />
                 </div>
                 <div className="small-title u-small-title-margin">
