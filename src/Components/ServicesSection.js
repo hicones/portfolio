@@ -14,25 +14,25 @@ function ServicesSection() {
         <Title title={"Serviços"} span={"services"} />
         <div className="services">
           <ServiceCard
-            image={design}
-            title={"Web Design"}
-            paragraph={"Criação de Design utilizando Adobe XD/Figma."}
+            image={reactlogo}
+            title={"Desenvolvimento Front-End"}
+            paragraph={
+              "Desenvolvimento Front-End utilizando React/Redux, HTML/CSS e Javascript."
+            }
           />
           <div className="mid-card">
             <ServiceCard
-              image={reactlogo}
-              title={"Desenvolvimento Front-End"}
+              image={javascriptlogo}
+              title={"Desenvolvimento Full-Stack"}
               paragraph={
-                "Desenvolvimento Front-End utilizando React/Redux, HTML/CSS e Javascript."
+                "Desenvolvimento utilizando NodeJS no back-end e ReactJS no front-end."
               }
             />
           </div>
           <ServiceCard
-            image={javascriptlogo}
-            title={"Desenvolvimento Full-Stack"}
-            paragraph={
-              "Desenvolvimento utilizando NodeJS no back-end e ReactJS no front-end."
-            }
+            image={design}
+            title={"Web Design"}
+            paragraph={"Criação de Design utilizando Adobe XD/Figma."}
           />
         </div>
       </ServicesSectionStyled>
