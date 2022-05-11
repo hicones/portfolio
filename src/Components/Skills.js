@@ -13,8 +13,8 @@ function Skills() {
                     <div className="skills">
                         <ProgressBar 
                             title={'HTML5'}
-                            width={'90%'}
-                            text={'90%'}
+                            width={'100%'}
+                            text={'100%'}
                         />
                         <ProgressBar 
                             title={'CSS3'}
@@ -23,8 +23,8 @@ function Skills() {
                         />
                         <ProgressBar 
                             title={'JAVASCRIPT'}
-                            width={'85%'}
-                            text={'85%'}
+                            width={'90%'}
+                            text={'90%'}
                         />
                         <ProgressBar 
                             title={'JAVA'}
@@ -38,8 +38,8 @@ function Skills() {
                         />
                         <ProgressBar 
                             title={'React JS'}
-                            width={'70%'}
-                            text={'70%'}
+                            width={'80%'}
+                            text={'80%'}
                         />
                     </div>
                 </InnerLayout>
