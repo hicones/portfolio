@@ -19,7 +19,7 @@ function Resume() {
                 </div>
                 <div className="resume-content">
                     <ResumeItem 
-                        year={'02/2022 - Atualmente'} 
+                        year={'02/2022 - 04/2022'} 
                         title={'Front-End Developer PL'}
                         subTitle={'Genezys Global Tech'}
                         text={'Desenvolvimento de aplicações no segmento de crypto, utilizando TypeScript, NextJS, Redux, requisições API Rest com Axios. '} 
