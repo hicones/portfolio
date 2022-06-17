@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import resume from "../img/resume.jpg";
+import resume from "../img/resume.jpeg";
 import PrimaryButton from "./PrimaryButton";
 import cvdownload from "../pdf/Cv_Henrique.pdf";
 
