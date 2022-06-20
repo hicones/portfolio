@@ -15,8 +15,8 @@ const portfolios = [
     category: "NextJS",
     image: img10,
     link1: "https://github.com/hicones/ValoBlog",
-    link2: "https://valo-blog.vercel.app",
-    title: "Valorant Concept page (In Development)",
+    link2: "https://valoblog.vercel.app/",
+    title: "Valorant Concept page",
     text: "Site reestilizado do jogo Valorant feito em ReactJS com TypeScript, NextJS e backend em nodeJS",
   },
   {
