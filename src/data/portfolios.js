@@ -8,6 +8,7 @@ import img7 from "../img/portImages/img-7.png";
 import img8 from "../img/portImages/img-8.jpeg";
 import img9 from "../img/portImages/loginsystem.png";
 import img10 from "../img/portImages/valoblog.png";
+import img11 from "../img/portImages/img-11.jpeg";
 
 const portfolios = [
   {
@@ -39,6 +40,15 @@ const portfolios = [
   },
   {
     id: 4,
+    category: "React Native",
+    image: img11,
+    link1: "https://github.com/hicones/tesla-ui-clone",
+    link2: "#",
+    title: "Shop Tenis",
+    text: "Shop Tenis da Puma feito em React Native",
+  },
+  {
+    id: 5,
     category: "CSS",
     image: css1,
     link1: "https://www.github.com/hicones",
@@ -47,7 +57,7 @@ const portfolios = [
     text: "Criado com HTML e CSS.",
   },
   {
-    id: 5,
+    id: 6,
     category: "CSS",
     image: css2,
     link1: "https://www.github.com/hicones",
@@ -56,7 +66,7 @@ const portfolios = [
     text: "Site completamente responsivo utilizando CSS Flexbox ",
   },
   {
-    id: 6,
+    id: 7,
     category: "Javascript",
     image: img3,
     link1: "https://www.github.com/hicones",
@@ -65,7 +75,7 @@ const portfolios = [
     text: "Pokedex Feita em JavaScript consumindo a PokéAPI",
   },
   {
-    id: 7,
+    id: 8,
     category: "HTML",
     image: img7,
     link1: "https://www.github.com/hicones",
@@ -74,7 +84,7 @@ const portfolios = [
     text: "Criado utilizando HTML/CSS básico, a página é completamente estática e não é responsiva.",
   },
   {
-    id: 8,
+    id: 9,
     category: "React Native",
     image: img5,
     link1: "https://www.github.com/hicones",
@@ -83,7 +93,7 @@ const portfolios = [
     text: "Feita em React Native",
   },
   {
-    id: 9,
+    id: 10,
     category: "React JS",
     image: react1,
     link1: "https://www.github.com/hicones",
@@ -92,7 +102,7 @@ const portfolios = [
     text: "Criado usando diferentes técnologias, React, Material UI, Styled-Components e mais...",
   },
   {
-    id: 10,
+    id: 11,
     category: "HTML",
     image: img2,
     link1: "https://www.github.com/hicones",
