@@ -8,7 +8,7 @@ import img7 from "../img/portImages/img-7.png";
 import img8 from "../img/portImages/img-8.jpeg";
 import img9 from "../img/portImages/loginsystem.png";
 import img10 from "../img/portImages/valoblog.png";
-import img11 from "../img/portImages/img-11.jpeg";
+import img11 from "../img/portImages/img-11.png";
 
 const portfolios = [
   {
