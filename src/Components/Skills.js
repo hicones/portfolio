@@ -18,18 +18,18 @@ function Skills() {
                         />
                         <ProgressBar 
                             title={'CSS3'}
-                            width={'90%'}
-                            text={'90%'}
+                            width={'100%'}
+                            text={'100%'}
                         />
                         <ProgressBar 
                             title={'JAVASCRIPT'}
-                            width={'90%'}
-                            text={'90%'}
+                            width={'100%'}
+                            text={'100%'}
                         />
                         <ProgressBar 
                             title={'React JS'}
-                            width={'80%'}
-                            text={'80%'}
+                            width={'90%'}
+                            text={'90%'}
                         />
                         <ProgressBar 
                             title={'VueJS'}
@@ -38,8 +38,8 @@ function Skills() {
                         />
                         <ProgressBar 
                             title={'PYTHON'}
-                            width={'70%'}
-                            text={'70%'}
+                            width={'50%'}
+                            text={'50%'}
                         />
                     </div>
                 </InnerLayout>
