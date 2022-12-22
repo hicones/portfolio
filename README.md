@@ -1,4 +1,4 @@
-# Personal Portifolio
+# Personal Portfolio
 
 Link: (https://devhenriquealmeida.netlify.app/)
 
