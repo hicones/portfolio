@@ -30,7 +30,7 @@ function ImageSection() {
           </div>
           <div className="info">
             <p>: Henrique Alexandre Alves de Almeida</p>
-            <p>: 19</p>
+            <p>: 20</p>
             <p>: Brasileiro </p>
             <p>: Português, Inglês e Espanhol </p>
             <p>: São Paulo/SP - Brasil</p>
