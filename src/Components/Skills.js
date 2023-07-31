@@ -37,7 +37,7 @@ function Skills() {
                             text={'70%'}
                         />
                         <ProgressBar 
-                            title={'ANGULARJS'}
+                            title={'AngularJS'}
                             width={'90%'}
                             text={'90%'}
                         />
