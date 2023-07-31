@@ -19,6 +19,14 @@ function Resume() {
         </div>
         <div className="resume-content">
           <ResumeItem
+            year={"08/2022 - Atualmente"}
+            title={"Front-End Developer"}
+            subTitle={"Z-Tecs Zootenia Inteligênte"}
+            text={
+              "Desenvolvimento de aplicações no segmento de Zootecnia e inteligência artificial, utilizando TypeScript, Vite, Tailwind, requisições API Rest com Axios. "
+            }
+          />
+          <ResumeItem
             year={"02/2022 - Atualmente"}
             title={"Front-End Developer II"}
             subTitle={"Genezys Global Tech"}
@@ -41,19 +49,11 @@ function Resume() {
             text={"Desenvolvimento do site da empresa e interfaces internas. "}
           />
           <ResumeItem
-            year={"02/2021 - 11/2021"}
+            year={"02/2020 - 11/2021"}
             title={"Estágio em Analise de sistemas"}
             subTitle={"Fastcash"}
             text={
               "Estágio em analise de sistemas, desenvolvimento e suporte técnico."
-            }
-          />
-          <ResumeItem
-            year={"06/2019 - 8/2020"}
-            title={"Estágio em Analise de sistemas"}
-            subTitle={"BJB Telecom"}
-            text={
-              "Desenvolvimento web, manutenção de código, desenvolvimento de projetos, auxilio geral em todas as atividades administrativas da empresa, como planejamento, pagamento, cobrança e marketing."
             }
           />
         </div>
