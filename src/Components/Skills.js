@@ -37,9 +37,9 @@ function Skills() {
                             text={'70%'}
                         />
                         <ProgressBar 
-                            title={'PYTHON'}
-                            width={'50%'}
-                            text={'50%'}
+                            title={'ANGULARJS'}
+                            width={'90%'}
+                            text={'90%'}
                         />
                     </div>
                 </InnerLayout>
