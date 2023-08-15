@@ -9,8 +9,18 @@ import img8 from "../img/portImages/img-8.jpeg";
 import img9 from "../img/portImages/loginsystem.png";
 import img10 from "../img/portImages/valoblog.png";
 import img11 from "../img/portImages/img-11.png";
+import img12 from "../img/portImages/img-12.png";
 
 const portfolios = [
+  {
+    id: 0,
+    category: "React JS",
+    image: img12,
+    link1: "https://github.com/hicones/SneakerArt",
+    link2: "https://sneakerart.hicones.tech/",
+    title: "SneakerArt",
+    text: "Site de tênis feito em ReactJS com TypeScript, Vite e api GraphQL",
+  },
   {
     id: 1,
     category: "NextJS",
