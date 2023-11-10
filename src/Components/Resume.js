@@ -19,15 +19,23 @@ function Resume() {
         </div>
         <div className="resume-content">
           <ResumeItem
-            year={"08/2022 - Atualmente"}
+            year={"09/2023 - Atualmente"}
             title={"Front-End Developer"}
-            subTitle={"Z-Tecs Zootenia Inteligênte"}
+            subTitle={"Pagtel"}
             text={
-              "Desenvolvimento de aplicações no segmento de Zootecnia e inteligência artificial, utilizando TypeScript, Vite, Tailwind, requisições API Rest com Axios. "
+              "Desenvolvimento de aplicações no segmento de Telecomunicações, utilizando TypeScript, Next, Vite, Tailwind e requisições API Rest com Axios. "
             }
           />
           <ResumeItem
-            year={"02/2022 - Atualmente"}
+            year={"08/2022 - 09/2023"}
+            title={"Front-End Developer"}
+            subTitle={"Z-Tecs Zootenia Inteligênte"}
+            text={
+              "Desenvolvimento de aplicações no segmento de Zootecnia e inteligência artificial, utilizando TypeScript, Vite, Tailwind e requisições API Rest com Axios. "
+            }
+          />
+          <ResumeItem
+            year={"02/2022 - 08/2023"}
             title={"Front-End Developer II"}
             subTitle={"Genezys Global Tech"}
             text={

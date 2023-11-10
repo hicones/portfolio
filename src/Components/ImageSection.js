@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import resume from "../img/resume.jpeg";
+import resume from "../img/resume.jpg";
 import PrimaryButton from "./PrimaryButton";
 import cvdownload from "../pdf/Cv_Henrique.pdf";
 
@@ -17,11 +17,11 @@ function ImageSection() {
         <p className="paragraph">
           Experiência como Desenvolvedor Front End Pleno utilizando ReactJS,
           analista de suporte técnico, estudante em Análise e desenvolvimento de
-          sistemas pela FIAP.
+          sistemas pela Belas Artes.
         </p>
         <div className="about-info">
           <div className="info-title">
-            <p>Nome completo</p>
+            <p>Nome</p>
             <p>Idade</p>
             <p>Nacionalidade </p>
             <p>Linguagens </p>
