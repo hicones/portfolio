@@ -72,9 +72,7 @@ function Resume() {
           <ResumeItem
             year={"2021 - Cursando"}
             title={"Análise e Desenvolvimento de Sistemas"}
-            subTitle={
-              "Faculdade de Informática e Administração Paulista (FIAP)"
-            }
+            subTitle={"Belas Artes"}
             text={
               "Estudei planejamento de projetos, metodologias ágeis e linguagens de programação. Challanges com diversas empresas no lançamento de novos aplicativos e serviços. "
             }
