@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import resume from "../img/resume.jpg";
 import PrimaryButton from "./PrimaryButton";
-import cvdownload from "../pdf/Cv_Henrique.pdf";
+import cvdownload from "../pdf/CV_Henrique.pdf";
 
 function ImageSection() {
   return (

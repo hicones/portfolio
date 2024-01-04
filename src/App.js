@@ -9,7 +9,7 @@ import PortfoliosPage from "./Pages/PortfoliosPage";
 import BlogsPage from "./Pages/BlogsPage";
 import ContactPage from "./Pages/ContactPage";
 import Brightness4Icon from "@material-ui/icons/Brightness4";
-import { Route, Switch as Switching } from "react-router";
+import { Route, Switch as Switching, useLocation } from "react-router";
 import Switch from "@material-ui/core/Switch";
 
 function App() {
@@ -17,9 +17,17 @@ function App() {
   const [checked, setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
 
+  const location = useLocation();
+
   useEffect(() => {
     document.documentElement.className = theme;
   }, [theme]);
+
+  useEffect(() => {
+    if (location.pathname) {
+      setNavToggle(false);
+    }
+  }, [location]);
 
   const themeToggler = () => {
     if (theme === "light-theme") {
