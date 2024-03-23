@@ -17,22 +17,23 @@ function ServicesSection() {
             image={reactlogo}
             title={"Desenvolvimento Front-End"}
             paragraph={
-              "Desenvolvimento Front-End utilizando React/Redux, HTML/CSS e Javascript."
+              "Desenvolvimento Front-End utilizando React, Next.js, TailwindCSS, Radix, ShadcnUI, HTML/CSS e Javascript."
             }
           />
           <div className="mid-card">
             <ServiceCard
-              image={javascriptlogo}
-              title={"Desenvolvimento Full-Stack"}
-              paragraph={
-                "Desenvolvimento utilizando NodeJS no back-end e ReactJS no front-end."
-              }
+              image={design}
+              title={"Web Design"}
+              paragraph={"Criação de Design utilizando Adobe XD/Figma."}
             />
           </div>
+
           <ServiceCard
-            image={design}
-            title={"Web Design"}
-            paragraph={"Criação de Design utilizando Adobe XD/Figma."}
+            image={javascriptlogo}
+            title={"Desenvolvimento Full-Stack"}
+            paragraph={
+              "Desenvolvimento utilizando NodeJS no back-end e ReactJS no front-end."
+            }
           />
         </div>
       </ServicesSectionStyled>
