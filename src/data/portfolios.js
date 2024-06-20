@@ -11,10 +11,20 @@ import img10 from "../img/portImages/valoblog.png";
 import img11 from "../img/portImages/img-11.png";
 import img12 from "../img/portImages/img-12.png";
 import img13 from "../img/portImages/bib.png";
+import img14 from "../img/portImages/img-9.png";
 
 const portfolios = [
   {
     id: 0,
+    category: "NextJS",
+    image: img14,
+    link1: "https://github.com/hicones/gradidao.vida",
+    link2: "https://grupogratidaoevida.com.br",
+    title: "Grupo Gratidão e Vida",
+    text: "Site de Casa de casa de recuperação feito em NextJS com TypeScript",
+  },
+  {
+    id: 1,
     category: "NextJS",
     image: img13,
     link1: "https://github.com/hicones/pime-bib",
@@ -23,7 +33,7 @@ const portfolios = [
     text: "Guia de estabelecimentos feito em NextJS com TypeScript, Framer Motion e api GraphQL",
   },
   {
-    id: 1,
+    id: 2,
     category: "React JS",
     image: img12,
     link1: "https://github.com/hicones/SneakerArt",
@@ -32,7 +42,7 @@ const portfolios = [
     text: "Site de tênis feito em ReactJS com TypeScript, Vite e api GraphQL",
   },
   {
-    id: 2,
+    id: 3,
     category: "NextJS",
     image: img10,
     link1: "https://github.com/hicones/ValoBlog",
@@ -41,7 +51,7 @@ const portfolios = [
     text: "Site reestilizado do jogo Valorant feito em ReactJS com TypeScript, NextJS e backend em nodeJS",
   },
   {
-    id: 3,
+    id: 4,
     category: "NextJS",
     image: img9,
     link1: "https://github.com/hicones/LoginSystem",
@@ -50,7 +60,7 @@ const portfolios = [
     text: "Sistema de login feito em ReactJS com TypeScript, NextJS e backend firebase",
   },
   {
-    id: 4,
+    id: 5,
     category: "React JS",
     image: img8,
     link1: "https://github.com/hicones/tesla-ui-clone",
@@ -59,7 +69,7 @@ const portfolios = [
     text: "UI Clone do Site da Tesla feito em ReactJS e TypeScript",
   },
   {
-    id: 5,
+    id: 6,
     category: "React Native",
     image: img11,
     link1: "https://github.com/hicones/tesla-ui-clone",
@@ -68,7 +78,7 @@ const portfolios = [
     text: "Shop Tenis da Puma feito em React Native",
   },
   {
-    id: 6,
+    id: 7,
     category: "CSS",
     image: css1,
     link1: "https://www.github.com/hicones",
@@ -77,7 +87,7 @@ const portfolios = [
     text: "Criado com HTML e CSS.",
   },
   {
-    id: 7,
+    id: 8,
     category: "CSS",
     image: css2,
     link1: "https://www.github.com/hicones",
@@ -86,7 +96,7 @@ const portfolios = [
     text: "Site completamente responsivo utilizando CSS Flexbox ",
   },
   {
-    id: 8,
+    id: 9,
     category: "Javascript",
     image: img3,
     link1: "https://www.github.com/hicones",
@@ -95,7 +105,7 @@ const portfolios = [
     text: "Pokedex Feita em JavaScript consumindo a PokéAPI",
   },
   {
-    id: 9,
+    id: 10,
     category: "HTML",
     image: img7,
     link1: "https://www.github.com/hicones",
@@ -104,7 +114,7 @@ const portfolios = [
     text: "Criado utilizando HTML/CSS básico, a página é completamente estática e não é responsiva.",
   },
   {
-    id: 10,
+    id: 11,
     category: "React Native",
     image: img5,
     link1: "https://www.github.com/hicones",
@@ -113,7 +123,7 @@ const portfolios = [
     text: "Feita em React Native",
   },
   {
-    id: 11,
+    id: 12,
     category: "React JS",
     image: react1,
     link1: "https://www.github.com/hicones",
@@ -122,7 +132,7 @@ const portfolios = [
     text: "Criado usando diferentes técnologias, React, Material UI, Styled-Components e mais...",
   },
   {
-    id: 12,
+    id: 13,
     category: "HTML",
     image: img2,
     link1: "https://www.github.com/hicones",
