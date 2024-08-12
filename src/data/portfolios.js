@@ -37,7 +37,7 @@ const portfolios = [
     category: "React JS",
     image: img12,
     link1: "https://github.com/hicones/SneakerArt",
-    link2: "https://sneakerart.hicones.tech/",
+    link2: "https://sneakerart.hicones.pro/",
     title: "SneakerArt",
     text: "Site de tênis feito em ReactJS com TypeScript, Vite e api GraphQL",
   },
